@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterLanis", "BetterLanis.csproj", "{482EFC0F-F639-4D79-8690-E7EA21A9EFEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{482EFC0F-F639-4D79-8690-E7EA21A9EFEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{482EFC0F-F639-4D79-8690-E7EA21A9EFEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{482EFC0F-F639-4D79-8690-E7EA21A9EFEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{482EFC0F-F639-4D79-8690-E7EA21A9EFEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A679385-E116-40C4-B135-47992B8373CF}
+	EndGlobalSection
+EndGlobal

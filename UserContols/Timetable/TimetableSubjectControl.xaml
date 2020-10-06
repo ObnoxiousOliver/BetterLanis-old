@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="BetterLanis.UserContols.Timetable.TimetableSubjectControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BetterLanis.UserContols.Timetable"
+             mc:Ignorable="d" HorizontalAlignment="Left" VerticalAlignment="Top" SnapsToDevicePixels="True">
+    <StackPanel Margin="5,0" VerticalAlignment="Center" HorizontalAlignment="Center" SnapsToDevicePixels="True">
+        <TextBlock x:Name="_Subject" Text="Subject" FontFamily="/BetterLanis;component/resources/Fonts/Heebo/#Heebo" FontSize="18" Foreground="{DynamicResource TimetableSubjectTextColor}" Margin="0" VerticalAlignment="Top" FontWeight="Bold" TextAlignment="Center" TextTrimming="CharacterEllipsis" SnapsToDevicePixels="True"/>
+        <WrapPanel HorizontalAlignment="Center" SnapsToDevicePixels="True">
+            <TextBlock x:Name="_Room" Text="Room" HorizontalAlignment="Center" FontFamily="/BetterLanis;component/resources/Fonts/Heebo/#Heebo" Foreground="{DynamicResource TimetableDetailsTextColor}" Margin="0" FontSize="14" VerticalAlignment="Center" TextTrimming="CharacterEllipsis" SnapsToDevicePixels="True"/>
+            <TextBlock x:Name="_Teacher" Text="Teacher" HorizontalAlignment="Center" FontFamily="/BetterLanis;component/resources/Fonts/Heebo/#Heebo" Foreground="{DynamicResource TimetableDetailsTextColor}" Margin="5,0,0,0" VerticalAlignment="Center" TextTrimming="CharacterEllipsis" SnapsToDevicePixels="True"/>
+            <Border x:Name="ABWeekBorder" BorderBrush="{DynamicResource OutlineColor}" BorderThickness="1" Margin="5,-2,0,2" CornerRadius="5" Background="{DynamicResource TimetableBadgeBackgroundColor}" SnapsToDevicePixels="True" Loaded="ABWeekBorder_Loaded" VerticalAlignment="Center" HorizontalAlignment="Left" Visibility="Collapsed">
+                <TextBlock x:Name="_ABWeek" TextWrapping="Wrap" FontFamily="/BetterLanis;component/resources/Fonts/Heebo/#Heebo" FontSize="18" Foreground="{DynamicResource TimetableDetailsTextColor}" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5,-4,5,-5" SnapsToDevicePixels="True" Text="A"/>
+            </Border>
+        </WrapPanel>
+    </StackPanel>
+</UserControl>
